@@ -1,7 +1,7 @@
 import { GRID_SIZE } from "./grid.js";
 import { getInputDirection } from "./input.js";
 
-export let SNAKE_SPEED = 5;
+export let SNAKE_SPEED = 7;
 let gridCenter = Math.floor(GRID_SIZE / 2);
 const snakeBody = [ {x: gridCenter, y: gridCenter} ];
 let snakeHead = getSnakeHead();
